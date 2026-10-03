@@ -1,0 +1,42 @@
+<div id="page3" class="fadeIn">
+    <div id="notebook-wrap" class="notebook-view">
+        <!-- COVER VIEW -->
+        <div id="notebook-cover" class="notebook-cover">
+            <div class="cover-photo">
+                <img src="me.jpg" alt="me">
+            </div>
+            <div id="cover-text" class="cover-title">For my prettiest & cutipie 💓✨</div>
+            <div class="heart-stamp">💝</div>
+            <button class="btn" style="width: 80%; margin-top: 25px;" id="open-notebook-btn">Open Notebook 📖</button>
+            <div class="open-hint">Tap to open →</div>
+
+            <button class="btn hide" id="restart-btn"
+                style="width: 80%; margin-top: 15px; background: var(--glass); color: var(--text); border: 1px solid var(--border);">Restart
+                🔄</button>
+        </div>
+
+        <!-- REALSITC 3D NOTEBOOK -->
+        <div id="notebook-container" class="notebook-container hide">
+            <div class="binding">
+                <div class="ring"></div>
+                <div class="ring"></div>
+                <div class="ring"></div>
+                <div class="ring"></div>
+                <div class="ring"></div>
+                <div class="ring"></div>
+                <div class="ring"></div>
+                <div class="ring"></div>
+            </div>
+
+            <!-- Pages will be injected here by notebook.js -->
+            <div id="nb-pages"></div>
+        </div>
+
+        <div class="controls hide" id="nb-controls">
+            <button class="nav-btn" id="prev-page">← Back</button>
+            <button class="nav-btn" id="next-page">Next →</button>
+        </div>
+
+        <button class="btn hide" id="close-notebook-btn" style="margin-top: 25px;">Close Notebook 💗</button>
+    </div>
+</div>
