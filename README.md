@@ -1,8 +1,8 @@
-# 💗 BestieWeb
+# 💗 The Love Project
 
 > ### **A little corner of the internet, made with love.**
 >
-> **BestieWeb** is a personalized, interactive digital surprise website
+> **The Love Project** is a personalized, interactive digital surprise website
 > designed to turn a simple webpage into a small emotional experience
 > --- with animated transitions, a virtual mailbox, personal messages,
 > background music, and a fully interactive memory notebook.
@@ -20,7 +20,7 @@ the notebook → 💗 Keep the memories`</strong>`{=html}
 
 ## ✨ About The Project
 
-BestieWeb is not designed as a conventional multi-section website.
+The Love Project is not designed as a conventional multi-section website.
 
 It is built as a **story-like interactive experience**.
 
@@ -28,7 +28,7 @@ Instead of presenting everything at once, the website reveals its
 content step by step:
 
 ``` text
-                    💗 BESTIEWEB
+                    💗 The Love Project
                          │
                          ▼
                 ┌─────────────────┐
@@ -73,9 +73,9 @@ The goal is simple:
 
 ------------------------------------------------------------------------
 
-## 🌸 What Makes BestieWeb Different?
+## 🌸 What Makes The Love Project Different?
 
-BestieWeb combines a number of small interactions to create a more
+The Love Project combines a number of small interactions to create a more
 personal presentation:
 
 -   💌 Interactive mailbox
@@ -145,7 +145,7 @@ The next stage loads dynamically without requiring a full page refresh.
 
 ## 03 --- 📖 The Interactive Notebook
 
-The notebook is the main feature of BestieWeb.
+The notebook is the main feature of The Love Project.
 
 The cover introduces the memory section and allows the user to open the
 notebook.
@@ -211,7 +211,7 @@ makes the content easier to read.
 
 # 🎨 Design Philosophy
 
-The visual style of BestieWeb focuses on a soft, emotional, premium
+The visual style of The Love Project focuses on a soft, emotional, premium
 aesthetic.
 
 The interface uses:
@@ -276,7 +276,7 @@ experience.
 
 ## 🎵 Background Music
 
-BestieWeb includes an optional background music system.
+The Love Project includes an optional background music system.
 
 Music is controlled through a floating music button.
 
@@ -305,7 +305,7 @@ duplicating controls across every memory page.
 
 # 🧠 How The Application Works
 
-BestieWeb uses a lightweight client-side architecture.
+The Love Project uses a lightweight client-side architecture.
 
 There is no backend server or database required for the current
 experience.
@@ -350,7 +350,7 @@ Assets
 # 🏗️ Project Structure
 
 ``` text
-BestieWeb/
+The Love Project/
 │
 ├── index.html
 │
@@ -397,7 +397,7 @@ BestieWeb/
   Backend                None
   Database               None
 
-BestieWeb intentionally keeps the stack lightweight.
+The Love Project intentionally keeps the stack lightweight.
 
 There is no framework dependency for the current version.
 
@@ -494,7 +494,7 @@ structure, making future content updates easier.
 
 # 🖼️ Personalization
 
-One of the main advantages of BestieWeb is that its content can be
+One of the main advantages of The Love Project is that its content can be
 personalized without redesigning the whole website.
 
 The notebook data can be changed to replace:
@@ -536,7 +536,7 @@ and shayari content can be viewed sequentially.
 
 # 🚀 Running The Project Locally
 
-Because BestieWeb dynamically loads HTML files using `fetch()`, it is
+Because The Love Project dynamically loads HTML files using `fetch()`, it is
 recommended to run it through a local web server rather than opening
 `index.html` directly with a `file://` URL.
 
@@ -551,7 +551,7 @@ Then open the generated local URL in your browser.
 If Python is installed:
 
 ``` bash
-cd BestieWeb
+cd The Love Project
 python -m http.server 8000
 ```
 
@@ -565,7 +565,7 @@ http://localhost:8000
 
 # 🌐 Deployment
 
-BestieWeb is a static website, which makes it suitable for static
+The Love Project is a static website, which makes it suitable for static
 hosting platforms.
 
 Possible deployment options include:
@@ -585,7 +585,7 @@ No backend deployment is required for the current version.
 
 # 🔒 Privacy & Assets
 
-BestieWeb does not currently require:
+The Love Project does not currently require:
 
 -   User accounts
 -   Database storage
@@ -660,7 +660,7 @@ version.
 
 # 🧪 Development Notes
 
-BestieWeb is intentionally built without a heavy framework.
+The Love Project is intentionally built without a heavy framework.
 
 The project demonstrates how a relatively small HTML/CSS/JavaScript
 codebase can create:
@@ -684,7 +684,7 @@ A normal webpage gives information.
 
 A good interactive webpage gives the user something to **experience**.
 
-BestieWeb was built around that idea:
+The Love Project was built around that idea:
 
 > ### **Don't just write the message. Build a moment around it. 💗**
 
@@ -719,7 +719,7 @@ the project.
 ```{=html}
 <p align="center">
 ```
-### 💗 BestieWeb
+### 💗 The Love Project
 
 **A tiny website for a big memory.**
 

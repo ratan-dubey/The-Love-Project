@@ -2,7 +2,7 @@
 const App = {
     currentPage: 'page1',
     playing: false,
-    
+
     init() {
         this.createParticles();
         this.loadPage('page1');
@@ -63,18 +63,18 @@ const App = {
                 if (navigator.vibrate) navigator.vibrate(40);
                 const overlay = document.getElementById("overlay");
                 const env = document.getElementById("env");
-                
+
                 overlay.classList.add("show");
                 setTimeout(() => env.classList.add("opened"), 300);
                 this.triggerScatter(overlay);
-                
+
                 setTimeout(() => {
                     overlay.classList.remove("show");
                     env.classList.remove("opened");
                     this.loadPage('page2');
                 }, 1800);
             });
-        } 
+        }
         else if (page === 'page2') {
             const toPhotos = document.getElementById("toPhotos");
             this.typeWriter();
@@ -109,7 +109,7 @@ const App = {
     typeWriter() {
         const typed = document.getElementById("typed");
         if (!typed) return;
-        const text = "Just a sweet bestie surprise… no drama, only smiles 💓";
+        const text = "Just a sweet little surprise… no drama, only smiles 💓";
         typed.textContent = ""; let i = 0;
         const t = setInterval(() => {
             typed.textContent += text[i]; i++;
